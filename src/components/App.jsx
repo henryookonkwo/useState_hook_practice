@@ -6,7 +6,7 @@ function App() {
   const [time, setTime] = useState(now);
 
   function getTime() {
-    const newTime = new Date().toLocaleTimeString();
+    const newTime = new Date().toLocaleTimeString("it-IT");
     setTime(newTime);
   }
 
